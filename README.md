@@ -1,4 +1,4 @@
-# Blob
+# Blog
 good good study, day day up!
 
 ## 最新文章
