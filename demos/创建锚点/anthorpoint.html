@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./../../css/font/icon.css" />
+    <link rel="stylesheet" href="./../../css\YuXPAnchor.css" />
+    <title></title>
+  </head>
+  <body>
+    <div id="parent">
+      <div class="box" id="A">A</div>
+      <div class="box" id="B">B</div>
+      <div class="box" id="C">C</div>
+      <div class="box" id="D">D</div>
+    </div>
+  </body>
+  <style type="text/css">
+    #A {
+      background-color: brown;
+    }
+    #B {
+      background-color: coral;
+    }
+    #C {
+      background-color: yellowgreen;
+    }
+    #D {
+      background-color: blueviolet;
+    }
+    #parent{
+        height: 96vh;
+        overflow: auto;
+    }
+    .box {
+      width: 100%;
+      height: 100vh;
+      font-size: 24px;
+      font-weight: 600;
+    }
+  </style>
+</html>
+<script src="./../../code/my-animates.js"></script>
+<script src="./../../code/anthorpoint.js"></script>
+<script src="./../../code/util.js"></script>
+<script>
+  var arr = [
+    { text: "AAAA", divid: "A" },
+    { text: "BBBB", divid: "B" },
+    { text: "CCCC", divid: "C" },
+    { text: "DDDD", divid: "D" },
+  ];
+  createAnchorPoint('left', arr, 'parent', 'parent');
+</script>
