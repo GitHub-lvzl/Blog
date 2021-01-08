@@ -1,0 +1,1 @@
+dotnet-cnblog proc -f <markdown文件路径>
