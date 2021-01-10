@@ -2,10 +2,10 @@
  * 通过定时器实现模拟的动画效果
  * @param {Object} ele 当前元素节点对象
  * @param {Object} json 当前元素的属性，及属性值（运动后想要达到的状态）
- * @param Number v 运动的速度快慢，此值越大，速度越小
+ * @param {Number} v 运动的速度快慢，此值越大，速度越小
  * @param {Object} fn 达到一个临界值时清除定时器后执行回调函数
  */
-function startMove(ele, json, v, fn) {
+ function startMove(ele, json, v, fn) {
     var speed = 0;
     // 1.先关闭定时器 再开启定时器
     clearInterval(ele.timer);
