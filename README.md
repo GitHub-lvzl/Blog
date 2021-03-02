@@ -11,3 +11,5 @@ good good study, day day up!
 
 [给页面添加锚点](https://www.cnblogs.com/lvzl/p/14258603.html)
 
+[怎么模拟实现JavaScript的call和apply功能](https://www.cnblogs.com/lvzl/p/14467341.html)
+
